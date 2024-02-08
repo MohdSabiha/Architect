@@ -1,0 +1,104 @@
+.navbar{
+    background-color: cornsilk;
+}
+.nav li a{
+    font-size: 20px;
+}
+.nav li a:hover{
+    color: rgb(234, 7, 7);  background-color: black;
+}
+/* home */
+
+.container{
+    min-width: 100%; min-height: 80vh;  background-color: cornsilk; color:rgb(79, 32, 32);
+   
+}
+.n1{
+    position: absolute; margin: 40px;  padding: 30px;  width: 50px;  height: 90px;
+    font-style: normal; font-size: 50px; font-weight: 700; text-decoration: none;
+}
+.p1{
+    position: absolute;  font-size: 25px; margin-top: 250px;  margin-left: 68px; text-decoration: underline;
+}
+.btn{
+    position: absolute;  font-size: 25px; margin-top: 350px;  margin-left: 60px; border: 20px; background-color: rgb(70, 133, 75);
+}
+.img1 img{
+    margin-right: 10px; width: 700px; height: 475px; float: right; border-top-left-radius: 40px;
+}
+
+/* About Me */
+
+.about{
+    min-width: 100%; min-height: 100vh;  background-color: rgb(79, 32, 32); color: white;
+}
+.img2 img{
+    margin-right: 120px; margin-top: 100px; width: 400px; height: 400px; float: right;background-color: burlywood; border-radius: 50%; border:2px solid black
+}
+.h1{
+    margin-left: 60px; margin-top: 50px; position: absolute; text-decoration: underline;
+}
+.h2{
+    margin-left: 60px; margin-top: 180px; position: absolute; width: 250px;
+}
+.ap1{
+    margin-left: 60px; margin-top: 320px; position: absolute; width: 350px;
+}
+
+/* works */
+
+.works{
+    min-width: 100%; min-height: 100vh;  background-color:cornsilk; color: rgb(79, 32, 32);
+
+}
+.wh1{
+    margin-left: 60px; margin-top: 50px; position: absolute; text-decoration: underline;
+}
+.workimage{
+    display: flex;  flex-wrap: wrap;  justify-content: center; gap: 10px; 
+}
+.wimg1{
+    margin-left: 10px; margin-top: 130px; text-align: center;
+      
+}
+.wimg1 img{
+    width: 350px;  height: 250px; object-fit: cover;  border-radius: 8px;
+}
+.wimg1 a h6{
+    margin-top: 5px;  font-weight: 700;   font-size: 20px;
+}
+.wimg1 a{
+    text-decoration: none; color: rgb(79, 32, 32);
+}
+
+/* contact */
+.connect{
+    min-width: 100vh; min-height: 100vh;  background-color:rgb(79, 32, 32); color:cornsilk;
+}
+.ch1{
+    margin-left: 90px; margin-top: 60px; position: absolute; text-decoration: underline; font-weight: bold;
+}
+.contact{
+    width: 1050px; height: 300px;  background-color:cornsilk; color:rgb(79, 32, 32); margin-top: 220px; border-radius: 20px; margin-left: 90px; position: absolute;
+}
+.ch2{
+    margin-left: 50px; margin-top: 2px; position: absolute; 
+}
+.ch2 h1{
+    font-size: 45px;
+}
+.li li{
+    color: #000; list-style-type: none; display: inline-block;  padding: 10px; margin-top: 90px; font-size: 25px;
+}
+.cleft h5{
+    float: left; margin-left: 50px;  font-size: 20px;
+}
+.right h5{
+    margin-left:550px; position: absolute; margin-top: 37px; font-size: 15px;
+}
+.li1 li{
+    list-style-type: none; display: inline-block; padding: 10px; float: right; margin-right: 30px; margin-top: 25px;
+}
+.li1 li img{
+    width: 30px; height:30px;
+}
